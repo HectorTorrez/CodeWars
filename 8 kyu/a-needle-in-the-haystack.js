@@ -10,3 +10,12 @@ Example(Input --> Output)
 
 ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 Note: In COBOL, it should return "found the needle at position 6" */
+
+
+function findNeedle(haystack) {
+    // your code here
+    
+    return haystack.indexOf('needle') ? `found the needle at position ${haystack.indexOf('needle')}` : 'found the needle at position 0'
+    // or /  return found the needle at position ${haystack.indexOf('needle')
+  }
+
