@@ -9,7 +9,6 @@ false    | true     => false
 false    | false    => false */
 
 
-function setAlarm(employed, vacation){
-
-    return employed === true && vacation !== true ? true : false
-  }
+function setAlarm(employed, vacation) {
+  return employed === true && vacation !== true ? true : false
+}
